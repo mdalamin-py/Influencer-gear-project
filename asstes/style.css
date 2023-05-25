@@ -1,0 +1,121 @@
+/*------------------------------
+     Font Family Link
+----------------------------- */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+
+/* Font Family end */
+
+
+/*--------------------------
+     body start
+--------------------- */
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    background: #FFFFFF;
+}
+
+/* Body end */
+
+/*------------------------------------
+            Header start
+------------------------------- */
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 40px;
+}
+
+.nav-title {
+    font-weight: 700;
+    font-size: 24px;
+    color: #3A3A3A;
+    margin-left: 120px;
+}
+
+nav ul {
+    display: flex;
+    justify-items: center;
+    margin-right: 120px;
+    gap: 34px;
+    font-weight: 600;
+    font-size: 20px;
+}
+
+nav li {
+    list-style: none;
+}
+
+nav li a {
+    text-decoration: none;
+    list-style: none;
+    color: #3A3A3A;
+}
+
+/* header end */
+
+/*----------------------------------
+        Smart Influencer
+---------------------------- */
+.smart-influencer {
+    display: flex;
+    margin-left: 120px;
+}
+
+.influencer {
+    margin-top: 145px;
+}
+
+.influencer-banner img {
+    margin-left: 133px;
+    margin-top: 70px;
+}
+
+.influencer-title {
+    font-weight: 700;
+    font-size: 52px;
+}
+
+.influencer-description {
+    font-weight: 600;
+    font-size: 16px;
+    margin-top: -40px;
+}
+
+.preebook-btn {
+    padding: 10px 24px;
+    font-weight: 700;
+    font-size: 16px;
+    color: #FFFFFF;
+    background: #E02C6D;
+    border-radius: 41px;
+}
+
+/*------------------------------
+        E-commerce start
+--------------------------- */
+.e-commerce-container {
+    display: flex;
+    width: 1110px;
+    height: 110px;
+    border: 1px;
+    background: linear-gradient(90deg, rgba(192, 204, 218, 0.1) 0%, rgba(192, 204, 218, 0.6) 50.38%, rgba(192, 204, 218, 0.1) 100%);
+    margin-left: 150px;
+    margin-top: 100px;
+}
+
+.ecommerces {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 40px;
+    margin-top: 40px;
+    margin-left: 70px;
+}
+
+.ecommerce img {
+    width: 99.12px;
+    height: 39.61px;
+    align-items: center;
+}
