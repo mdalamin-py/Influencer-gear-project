@@ -68,6 +68,7 @@ nav li a {
 }
 
 .influencer-banner img {
+    background-image: url(../images/Circle\ design.svg);
     margin-left: 133px;
     margin-top: 70px;
 }
@@ -127,6 +128,7 @@ nav li a {
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-direction: column;
     margin-top: 100px;
 }
 
@@ -143,7 +145,8 @@ nav li a {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-column-gap: 30px;
-    
+    grid-row-gap: 30px;
+
 
 }
 
@@ -152,8 +155,7 @@ nav li a {
     box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.15);
     border-radius: 5px;
     height: 476px;
-    padding: 15px;
-
+    padding: 15px 15px 0px 15px;
 }
 
 .collection .collection-banner {
@@ -176,3 +178,94 @@ nav li a {
 .collection-details {
     margin-top: -17px;
 }
+
+.fa-star {
+    margin-left: 5px;
+}
+
+.fa-star-half-full {
+    margin-left: 5px;
+    color: #FB8200;
+}
+
+.fa-star.field {
+    width: 11.07px;
+    height: 10.32px;
+    color: #FB8200;
+}
+
+.rateing-star {
+    margin-left: -3px;
+}
+
+.collection-description {
+    font-weight: 700;
+    font-size: 14px;
+    color: #787885;
+}
+
+/*----------------------------
+        See More
+--------------------------- */
+
+.see-more-btn {
+    margin-right: 0px;
+    font-weight: 700;
+    font-size: 18px;
+    color: rgba(224, 44, 109, 0.87);
+    margin-left: 950px;
+    margin-top: 50px;
+}
+
+.see-more-btn p {
+    display: flex;
+    align-items: center;
+}
+
+
+.fa-arrow-right {
+    width: 18px;
+    height: 16px;
+    padding-left: 5px;
+}
+
+/*---------------------------------------
+        Features Products
+------------------------------------- */
+.product {
+    display: flex;
+    align-items: center;
+    gap: 95px;
+    margin-top: 120px;
+    margin-left: 120px;
+}
+
+.product .product-banner img {
+    width: 404px;
+    height: 270px;
+    border-radius: 7px;
+}
+
+.feature-title {
+    font-weight: 700;
+    font-size: 38px;
+    color: #0A0826;
+}
+
+.feature-descriprion {
+    font-weight: 700;
+    font-size: 16px;
+    color: #6C6C6C;
+    margin-top: -20px;
+}
+
+.products-btn{
+    padding: 10px 24px;
+    font-weight: 700;
+    font-size: 16px;
+    color: #FFFFFF;
+    background: #E02C6D;
+    margin-top: 5px;
+}
+
+   
