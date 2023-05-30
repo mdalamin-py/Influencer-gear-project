@@ -259,7 +259,7 @@ nav li a {
     margin-top: -20px;
 }
 
-.products-btn{
+.products-btn {
     padding: 10px 24px;
     font-weight: 700;
     font-size: 16px;
@@ -268,4 +268,62 @@ nav li a {
     margin-top: 5px;
 }
 
-   
+/*----------------------------------------
+            Footer section
+-------------------------------------- */
+.footer {
+    width: 1321px;
+    height: 239px;
+    background: #0A0826;
+    margin-left: 30px;
+    margin-bottom: 30px;
+    margin-top: 100px;
+}
+
+.footer-influencer {
+    color: #FFFFFF;
+    text-align: center;
+    padding-top: 50px;
+}
+
+.influencer-footer-title {
+    font-weight: 700;
+    font-size: 24px;
+    color: #FFFFFF;
+    margin-bottom: -10px;
+}
+
+.influencer-footer-copyright {
+    font-weight: 700;
+    font-size: 14px;
+    color: #FFFFFF;
+    margin-bottom: -10px;
+}
+
+.influencer-footer-reserved {
+    font-weight: 700;
+    font-size: 14px;
+    color: #FFFFFF;
+    margin-bottom: -10px;
+}
+
+.footer-influencer ul {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 20px;
+    gap: 25px;
+    padding-left: 0px;
+}
+
+.footer-influencer li {
+    list-style: none;
+}
+
+.footer-influencer a {
+    text-decoration: none;
+}
+
+/*------------------------------------------
+        Responsive Styles
+----------------------------------------- */
